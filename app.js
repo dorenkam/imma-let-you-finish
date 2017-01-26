@@ -43,7 +43,7 @@ app.post('*', function immaLetYouFinish (req, res) {
     var botResponse = {
       icon_url: 'http://i.imgur.com/GSEfJzI.jpg',
       username: 'Kanye West',
-      text: 'Yo, @' + userName + ', I\'m really happy for you, Imma let you finish, but @' + prevUserName + ' had one of the best comments of all time! One of the best comments of all time!'
+      text: 'Yo, @' + userName + ', I\'m really happy for you, Imma let you finish, but @' + prevUserName + ' had one of the best comments of all time! One of the best comments of all time!!'
     };
 
     // reply to the channel.
