@@ -2,6 +2,8 @@
 
 ![](http://ledhack.org/content/images/2015/05/imma-let-you-finish.png)
 
+###All credit for this goes to https://github.com/Sparragus/imma-let-you-finish. I just forked this so that I could adjust the code to increase the frequency that Kanye interrupts. You know he wants the limelight more! ;-)
+
 [imma-let-you-finish](http://ledhack.org/imma-let-you-finish/) celebrates over five years of [Kanye West hacking the stage](https://www.youtube.com/watch?v=3K21rLBEfeM). This [Slack Bot](https://slack.com/) will randomly appear on your conversation to tell everyone who has the best comment of all times. Of all times!
 
 ## Add it on your Slack channel in three steps!
@@ -15,7 +17,7 @@ Keep this browser tab open, because we will come back to it later.
 ![Outgoing Webhook Token](http://i.imgur.com/tn6Kfgzl.png)
 
 ### Deploy this app to Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/sparragus/imma-let-you-finish/tree/master)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/dorenkam/imma-let-you-finish/tree/master)
 
 Use that button to deploy this app to Heroku. Before you deploy the app, add the Outgoing Webhook Token for the config variable. Also, give your app a name.
 
