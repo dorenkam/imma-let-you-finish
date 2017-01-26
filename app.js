@@ -35,7 +35,7 @@ app.post('*', function immaLetYouFinish (req, res) {
   // userName is the user that is currently chatting.
   userName = req.body.user_name;
 
-  // there's a 0.5% chance of interrupting the conversation.
+  // there's a 2.5% chance of interrupting the conversation.
   var probability = Math.random();
   if (probability <= 0.025) {
 
